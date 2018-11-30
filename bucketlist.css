@@ -2,5 +2,18 @@
 {
   margin: 0;
   padding: 0;
-  
+}
+
+header
+{
+background-image: url(shanghai.jpg);
+height: 100vh;
+background-size: cover;
+background-position: center;
+}
+
+.main-nav
+{
+float: right;
+
 }
