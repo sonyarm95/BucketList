@@ -23,3 +23,10 @@ margin-top: 30px;
 {
   display: inline-block;
 }
+
+.main-nav li a
+{
+  color: white;
+  text-decoration: none;
+  padding: 5px 20
+}
