@@ -1,11 +1,9 @@
-*
-{
+* {
   margin: 0;
   padding: 0;
 }
 
-header
-{
+header {
 background-image: url(shanghai.jpg);
 height: 100vh;
 background-size: cover;
@@ -28,5 +26,7 @@ margin-top: 30px;
 {
   color: white;
   text-decoration: none;
-  padding: 5px 20
+  padding: 5px 20;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
 }
