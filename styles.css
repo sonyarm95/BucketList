@@ -320,6 +320,16 @@ New York
   padding: 160px 0;
       background-color:#000;
 }
+/*--------------------------------
+Shanghai
+---------------------------------*/
+.sect--coolio {
+    background-image: url('https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1295,h_720,f_auto/w_80,x_15,y_15,g_south_west,l_klook_water/activities/fpk8dstdpdma500z4pgr/OrientalPearlTower.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+      background-color:#fff;
 
 .best__title {
     letter-spacing: 1px;
