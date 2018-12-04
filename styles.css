@@ -77,6 +77,11 @@ p{
 .row--margin{
   margin-top: 65px;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 /*--------------------------------
 ANIOMATION
 ---------------------------------*/
