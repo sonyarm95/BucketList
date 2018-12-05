@@ -82,6 +82,11 @@ html {
   scroll-behavior: smooth;
 }
 
+.form-group {
+padding-left: 60px;
+padding-right: 60px;
+}
+
 /*--------------------------------
 ANIOMATION
 ---------------------------------*/
