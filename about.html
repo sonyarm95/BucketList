@@ -12,17 +12,36 @@
 
 
 <body>
-  <div class="banner">
+  <div class="banner__about">
     <div class="banner__overlay">
       <div class="banner__container">
         <h1 class="banner__title"> About the BUCKET LIST</h1>
         <p class="banner__text">The inspiration behind the destination.</p>
-        <a href="#" class="btn btn--opacity">Read More</a>
+        <a href="#form" class="btn btn--opacity" id="section1">Read More</a>
       </div>
       <img class="banner__scroll-down" src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAxMjkgMTI5IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMjkgMTI5IiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4Ij4KICA8Zz4KICAgIDxwYXRoIGQ9Im0xMjEuMywzNC42Yy0xLjYtMS42LTQuMi0xLjYtNS44LDBsLTUxLDUxLjEtNTEuMS01MS4xYy0xLjYtMS42LTQuMi0xLjYtNS44LDAtMS42LDEuNi0xLjYsNC4yIDAsNS44bDUzLjksNTMuOWMwLjgsMC44IDEuOCwxLjIgMi45LDEuMiAxLDAgMi4xLTAuNCAyLjktMS4ybDUzLjktNTMuOWMxLjctMS42IDEuNy00LjIgMC4xLTUuOHoiIGZpbGw9IiNGRkZGRkYiLz4KICA8L2c+Cjwvc3ZnPgo=" />
     </div>
   </div>
 
+
+  <form>
+    <div class="form-group">
+      <h2>Let's go!</h2>
+      <br>
+      <label for="exampleInputName1">Name</label>
+      <input type="name" class="form-control" id="exampleInputName1" placeholder="Name">
+    </div>
+    <div class="form-group" id="form">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+    </div>
+    <div class="form-group" id="message">
+      <label for="exampleInputMessage1">Your message</label>
+      <textarea class="form-control" rows="3" placeholder="Your message"></textarea>
+    </div>
+    <div class="form-group">
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
 
 </body>
 

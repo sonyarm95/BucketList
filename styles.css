@@ -77,6 +77,16 @@ p{
 .row--margin{
   margin-top: 65px;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.form-group {
+padding-left: 60px;
+padding-right: 60px;
+}
+
 /*--------------------------------
 ANIOMATION
 ---------------------------------*/
@@ -151,6 +161,18 @@ BANNER
 ---------------------------------*/
 .banner{
     background-image: url('https://i.ibb.co/270G0BS/5928.jpg');
+  background-color:#000;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: table;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.banner__about{
+    background-image: url('https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fcdn-image.travelandleisure.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F1600x1000%2Fpublic%2F1496699939%2Fhot-air-balloons-festival-cappadocia-turkey-HOTAIR0605.jpg%3Fitok%3DWZ9CVr-K&w=1000&c=sc&poi=face&q=70');
   background-color:#000;
   background-position: center;
   background-size: cover;
@@ -298,10 +320,10 @@ STORY
 }
 
 /*--------------------------------
-Tokyo
+Singpore
 ---------------------------------*/
 .sect--great {
-    background-image: url('https://i.ibb.co/0rL0HD4/ALMY-E4-JWWG-Castle-Flowers-1024x512.jpg');
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Marina_Bay_Sands_in_the_evening_-_20101120.jpg/1200px-Marina_Bay_Sands_in_the_evening_-_20101120.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
