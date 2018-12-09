@@ -313,7 +313,7 @@ WE KNOW YOU WANT TO SEE THE WORLD. WE WANT TO HELP YOU DO IT
 }
 
 /*--------------------------------
-STORY
+London
 ---------------------------------*/
 
 .story-img {
@@ -325,9 +325,17 @@ STORY
     background-repeat: no-repeat;
   background-color: #1d140b;
 }
-
+.best__title {
+      letter-spacing: 1px;
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: 600;
+      margin-top: 25px;
+      margin-bottom: 15px;
+      color: #daa37f;
+}
 /*--------------------------------
-2 HALF SECTION
+London
 ---------------------------------*/
 .half-sect__second {
     background-image: url('https://i.ibb.co/YZ2kM9b/Banner-compressed-4.jpg');
@@ -362,6 +370,12 @@ STORY
 
 .description__title {
     margin-top: 0;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 25px;
     margin-bottom: 15px;
 }
 
