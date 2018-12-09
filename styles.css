@@ -337,6 +337,14 @@ STORY
       background-color:#fff;
 }
 
+.half-sect__about {
+    background-image: url('https://cdn-images-1.medium.com/max/1200/1*sL8i5YkfzBm_SNKt3per5A.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      background-color:#fff;
+}
+
 .half {
     width: 50%;
     display: table-cell;
